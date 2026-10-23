@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Block nothing — this is a public marketing site.
+# Disallow paths that are not useful in search results.
+Disallow: /src/
+Disallow: /node_modules/
+
+Sitemap: https://sha-pay.vercel.app/sitemap.xml
